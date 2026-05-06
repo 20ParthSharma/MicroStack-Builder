@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #fff4ed;
+  --color-primary-100: #ffe6d4;
+  --color-primary-200: #ffcba8;
+  --color-primary-300: #ffa771;
+  --color-primary-400: #ff7733;
+  --color-primary-500: #fe570a;
+  --color-primary-600: #ef4006;
+  --color-primary-700: #c62d07;
+  --color-primary-800: #9d240e;
+  --color-primary-900: #7e210f;
+  --color-primary-950: #440d05;
+
+  --color-dark-bg: #0f172a;
+  --color-dark-card: #1e293b;
+  --color-dark-border: #334155;
+  --color-dark-text: #f8fafc;
+  --color-dark-textMuted: #94a3b8;
+
+  --color-light-bg: #0f172a;
+  --color-light-card: #1e293b;
+  --color-light-border: #334155;
+  --color-light-text: #f8fafc;
+  --color-light-textMuted: #94a3b8;
+
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-light-bg text-light-text transition-colors duration-200;
+  }
+  
+  /* Manual dark mode targeting if @apply dark isn't playing nice with nested classes */
+  .dark body {
+    @apply bg-dark-bg text-dark-text;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 shadow-sm shadow-primary-500/30;
+  }
+  .btn-outline {
+    @apply border border-light-border dark:border-dark-border hover:bg-slate-50 dark:hover:bg-slate-800 text-light-text dark:text-dark-text font-medium py-2 px-4 rounded-lg transition-colors duration-200;
+  }
+  .card {
+    @apply bg-light-card dark:bg-dark-card border border-light-border dark:border-dark-border rounded-xl shadow-sm transition-colors duration-200;
+  }
+  .input-field {
+    @apply w-full bg-light-bg dark:bg-dark-bg border border-light-border dark:border-dark-border rounded-lg px-4 py-2.5 outline-none focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500 transition-all text-light-text dark:text-dark-text;
+  }
+}
