@@ -214,7 +214,7 @@ Then open your browser at `http://localhost:5173` (or the port shown in terminal
 ## 👨‍💻 Author
 
 **Parth Sharma**
-B.Tech CSE Student | Full-Stack Web Developer | AI Tools Enthusiast
+B.Tech CSE Student | Full-Stack Web Developer | AI & Developer Tools Enthusiast
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/20ParthSharma)
 
