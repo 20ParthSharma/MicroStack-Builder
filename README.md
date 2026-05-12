@@ -222,6 +222,6 @@ B.Tech CSE Student | Full-Stack Web Developer | AI & Developer Tools Enthusiast
 
 <div align="center">
 
-⭐ **If you found this useful, consider giving it a star!** ⭐
+⭐ **If you found this useful,  giving it a star!** ⭐
 
 </div>
