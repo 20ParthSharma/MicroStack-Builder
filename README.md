@@ -204,7 +204,7 @@ Then open your browser at `http://localhost:5173` (or the port shown in terminal
 ## 🔮 Roadmap
 
 - [ ] AI-powered stack recommendation engine
-- [ ] One-click GitHub repository creation
+- [ ] One-click GitHub repository 
 - [ ] Cloud deployment integration (Vercel, Railway, Render)
 - [ ] Visual drag-and-drop architecture builder
 - [ ] Plugin/template marketplace
